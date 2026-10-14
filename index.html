@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>LaslesVPN — Landing Page</title>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="container site-header">
+      <a href="#">
+        <img class="logo" src="./images/Logo.png" alt="LaslesVPN Logo" />
+      </a>
+
+      <!-- Mobile & Tablet Menu Button -->
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-menu"
+        aria-label="Open menu"
+      >
+        <svg
+          class="icon-menu"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          aria-hidden="true"
+        >
+          <path d="M4 7h16M4 12h16M4 17h16" />
+        </svg>
+        <svg
+          class="icon-close"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          aria-hidden="true"
+        >
+          <path d="M6 6l12 12M18 6L6 18" />
+        </svg>
+      </button>
+
+      <ul id="site-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#help">Help</a></li>
+      </ul>
+
+      <div class="action-btns">
+        <a href="#">Sign In</a>
+        <a class="btn-primary" href="#">Sign Up</a>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <!-- About Section -->
+    <section id="about" class="container">
+      <div class="content-wrapper">
+        <h1>Want anything to be easy with <span>LaslesVPN.</span></h1>
+        <p>
+          Provide a network for all your needs with ease and fun using
+          <span>LaslesVPN</span> discover interesting features from us.
+        </p>
+        <a href="#pricing">Get Started</a>
+      </div>
+      <div class="img-wrapper">
+        <img src="./images/Illustration 1.png" alt="Illustration" />
+      </div>
+    </section>
+
+    <!-- Numbers Section -->
+    <section class="numbers">
+      <div class="number-item">
+        <div class="img-content">
+          <img src="./images/icons/user.svg" alt="User icon" />
+        </div>
+        <div class="number-content">
+          <h3>90+</h3>
+          <p>Users</p>
+        </div>
+      </div>
+      <div class="number-item">
+        <div class="img-content">
+          <img src="./images/icons/location.svg" alt="Location icon" />
+        </div>
+        <div class="number-content">
+          <h3>30+</h3>
+          <p>Locations</p>
+        </div>
+      </div>
+      <div class="number-item">
+        <div class="img-content">
+          <img src="./images/icons/server.svg" alt="Server icon" />
+        </div>
+        <div class="number-content">
+          <h3>50+</h3>
+          <p>Servers</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="container">
+      <div class="features-img">
+        <img src="./images/Illustration 2.png" alt="Illustration 2" />
+      </div>
+      <div class="features-content">
+        <h2>We Provide Many Features You Can Use</h2>
+        <p>
+          You can explore the features that we provide with fun and have their
+          own functions each feature.
+        </p>
+        <ul>
+          <li>Powerfull online protection.</li>
+          <li>Internet without borders.</li>
+          <li>Supercharged VPN</li>
+          <li>No specific time limits.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Shaded Background Wrapper (Pricing, Map, Testimonials, Subscribe) -->
+    <div class="color-container">
+      <!-- Pricing Section -->
+      <section id="pricing" class="container">
+        <h2>Choose Your Plan</h2>
+        <p>
+          Let's choose the package that is best for you and explore it happily
+          and cheerfully.
+        </p>
+        <ul class="plan-items">
+          <li>
+            <img src="./images/Free.png" alt="Free plan" />
+            <h3>Free Plan</h3>
+            <ul class="list">
+              <li>Unlimited Bandwitch</li>
+              <li>Encrypted Connection</li>
+              <li>No Traffic Logs</li>
+              <li>Works on All Devices</li>
+            </ul>
+            <div class="action">
+              <p>Free</p>
+              <a href="#">Select</a>
+            </div>
+          </li>
+          <li>
+            <img src="./images/Standard.png" alt="Standard plan" />
+            <h3>Standard Plan</h3>
+            <ul class="list">
+              <li>Unlimited Bandwitch</li>
+              <li>Encrypted Connection</li>
+              <li>Yes Traffic Logs</li>
+              <li>Works on All Devices</li>
+              <li>Connect Anyware</li>
+            </ul>
+            <div class="action">
+              <p>$9 /<span> mo</span></p>
+              <a href="#">Select</a>
+            </div>
+          </li>
+          <li>
+            <img src="./images/Premium.png" alt="Premium plan" />
+            <h3>Premium Plan</h3>
+            <ul class="list">
+              <li>Unlimited Bandwitch</li>
+              <li>Encrypted Connection</li>
+              <li>Yes Traffic Logs</li>
+              <li>Works on All Devices</li>
+              <li>Connect Anyware</li>
+              <li>Get New Features</li>
+            </ul>
+            <div class="action">
+              <p>$12 /<span> mo</span></p>
+              <a href="#">Select</a>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Map Section -->
+      <section id="locations" class="map container">
+        <h2>Huge Global Network of Fast VPN</h2>
+        <p>
+          See <span>LaslesVPN</span> everywhere to make it easier for you when
+          you move locations.
+        </p>
+        <img class="global" src="./images/Huge Global.png" alt="Global network map" />
+        <ul class="sponsors" aria-label="Sponsored companies">
+          <li><img src="./images/icons/Netflex.svg" alt="Netflix" /></li>
+          <li><img src="./images/icons/reddit.svg" alt="Reddit" /></li>
+          <li><img src="./images/icons/amazon.svg" alt="Amazon" /></li>
+          <li><img src="./images/icons/discord.svg" alt="Discord" /></li>
+          <li><img src="./images/icons/spotify.svg" alt="Spotify" /></li>
+        </ul>
+      </section>
+
+      <!-- Testimonials Section -->
+      <section id="testimonials" class="container">
+        <h2>Trusted by Thousands of Happy Customer</h2>
+        <p>
+          These are the stories of our customers who have joined us with great
+          pleasure when using this crazy feature.
+        </p>
+      </section>
+
+      <!-- Testimonials Swiper -->
+      <section class="testimonial" aria-label="Customer testimonials">
+        <div class="testimonials__inner">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <article class="card">
+                  <header class="card__head">
+                    <span class="avatar avatar--1" aria-hidden="true">
+                      <img src="./images/user1.png" alt="" />
+                    </span>
+                    <div class="card__who">
+                      <h3 class="card__name">Viezh Robert</h3>
+                      <p class="card__place">Warsaw, Poland</p>
+                    </div>
+                    <div class="card__rating">
+                      4.5
+                      <svg class="star" viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                          d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"
+                        />
+                      </svg>
+                    </div>
+                  </header>
+                  <p class="card__quote">
+                    “Wow... I am very happy to use this VPN, it turned out to be
+                    more than my expectations and so far there have been no
+                    problems. LaslesVPN always the best”.
+                  </p>
+                </article>
+              </div>
+
+              <div class="swiper-slide">
+                <article class="card">
+                  <header class="card__head">
+                    <span class="avatar avatar--2" aria-hidden="true">
+                      <img src="./images/user2.png" alt="" />
+                    </span>
+                    <div class="card__who">
+                      <h3 class="card__name">Yessica Christy</h3>
+                      <p class="card__place">Shanxi, China</p>
+                    </div>
+                    <div class="card__rating">
+                      4.5
+                      <svg class="star" viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                          d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"
+                        />
+                      </svg>
+                    </div>
+                  </header>
+                  <p class="card__quote">
+                    “I like it because I like to travel far and still can
+                    connect with high speed.”.
+                  </p>
+                </article>
+              </div>
+
+              <div class="swiper-slide">
+                <article class="card">
+                  <header class="card__head">
+                    <span class="avatar avatar--3" aria-hidden="true">
+                      <img src="./images/user3.png" alt="" />
+                    </span>
+                    <div class="card__who">
+                      <h3 class="card__name">Kim Young Jou</h3>
+                      <p class="card__place">Seoul, South Korea</p>
+                    </div>
+                    <div class="card__rating">
+                      4.5
+                      <svg class="star" viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                          d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"
+                        />
+                      </svg>
+                    </div>
+                  </header>
+                  <p class="card__quote">
+                    “This is very unusual for my business that currently
+                    requires a virtual private network that has high security.”.
+                  </p>
+                </article>
+              </div>
+
+              <div class="swiper-slide">
+                <article class="card">
+                  <header class="card__head">
+                    <span class="avatar avatar--1" aria-hidden="true">
+                      <img src="./images/user1.png" alt="" />
+                    </span>
+                    <div class="card__who">
+                      <h3 class="card__name">Viezh Robert</h3>
+                      <p class="card__place">Warsaw, Poland</p>
+                    </div>
+                    <div class="card__rating">
+                      4.5
+                      <svg class="star" viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                          d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"
+                        />
+                      </svg>
+                    </div>
+                  </header>
+                  <p class="card__quote">
+                    “Wow... I am very happy to use this VPN, it turned out to be
+                    more than my expectations and so far there have been no
+                    problems. LaslesVPN always the best”.
+                  </p>
+                </article>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <div class="controls">
+            <div class="dots"></div>
+            <div class="arrows">
+              <button
+                class="nav-btn nav-prev"
+                type="button"
+                aria-label="Previous testimonials"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M20 12H4M10 6l-6 6 6 6" />
+                </svg>
+              </button>
+              <button
+                class="nav-btn nav-next"
+                type="button"
+                aria-label="Next testimonials"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M4 12h16M14 6l6 6-6 6" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Help / Subscribe Section -->
+      <section id="help" class="container">
+        <div class="subsrcipe">
+          <div class="left-content">
+            <h2>Subscribe Now for Get Special Features!</h2>
+            <p>Let's subscribe with us and find the fun.</p>
+          </div>
+          <div class="right-content">
+            <a href="#help">Subscribe Now</a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer Wrapper -->
+    <div class="footer-bg">
+      <footer class="site-footer container">
+        <div class="footer-brand">
+          <a class="footer-logo" href="#">
+            <img class="logo" src="./images/Logo.png" alt="LaslesVPN home" />
+          </a>
+          <p class="footer-about">
+            <span>LaslesVPN</span> is a private virtual network that has unique
+            features and has high security.
+          </p>
+
+          <ul class="footer-social">
+            <li>
+              <a href="#" aria-label="LaslesVPN on Facebook">
+                <img src="./images/icons/Facebook.svg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="#" aria-label="LaslesVPN on Twitter">
+                <img src="./images/icons/Twitter.svg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="#" aria-label="LaslesVPN on Instagram">
+                <img src="./images/icons/Instagram.svg" alt="" />
+              </a>
+            </li>
+          </ul>
+
+          <p class="trademark">©2020Lasles<span>VPN</span></p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer">
+          <div class="footer-col">
+            <h3>Product</h3>
+            <ul>
+              <li><a href="#">Download</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#locations">Locations</a></li>
+              <li><a href="#">Server</a></li>
+              <li><a href="#locations">Countries</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3>Engage</h3>
+            <ul>
+              <li><a href="#features">LaslesVPN ?</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Tutorials</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3>Earn Money</h3>
+            <ul>
+              <li><a href="#">Affiliate</a></li>
+              <li><a href="#">Become Partner</a></li>
+            </ul>
+          </div>
+        </nav>
+      </footer>
+    </div>
+
+    <!-- Swiper Script -->
+    <script>
+      const reduceMotion = window.matchMedia(
+        '(prefers-reduced-motion: reduce)',
+      ).matches;
+
+      const swiper = new Swiper('.swiper', {
+        slidesPerView: 'auto',
+        spaceBetween: 50,
+        speed: reduceMotion ? 0 : 500,
+        grabCursor: true,
+        breakpoints: {
+          0: { slidesPerGroup: 1, spaceBetween: 16 },
+          601: { slidesPerGroup: 1, spaceBetween: 30 },
+          993: { slidesPerGroup: 2, spaceBetween: 50 },
+        },
+        pagination: {
+          el: '.dots',
+          clickable: true,
+          bulletClass: 'dot',
+          bulletActiveClass: 'is-active',
+        },
+        navigation: {
+          nextEl: '.nav-next',
+          prevEl: '.nav-prev',
+          disabledClass: 'is-disabled',
+        },
+        keyboard: { enabled: true },
+      });
+    </script>
+
+    <!-- Mobile & Tablet Menu Script -->
+    <script>
+      (function () {
+        var header = document.querySelector('.site-header');
+        var toggle = header && header.querySelector('.menu-toggle');
+        if (!toggle) return;
+
+        function setOpen(open) {
+          header.classList.toggle('is-open', open);
+          toggle.setAttribute('aria-expanded', String(open));
+          toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+        }
+
+        toggle.addEventListener('click', function () {
+          setOpen(!header.classList.contains('is-open'));
+        });
+
+        header.querySelectorAll('a').forEach(function (link) {
+          link.addEventListener('click', function () {
+            setOpen(false);
+          });
+        });
+
+        document.addEventListener('keydown', function (e) {
+          if (e.key === 'Escape') setOpen(false);
+        });
+
+        window
+          .matchMedia('(min-width: 993px)')
+          .addEventListener('change', function (e) {
+            if (e.matches) setOpen(false);
+          });
+      })();
+    </script>
+  </body>
+</html>
